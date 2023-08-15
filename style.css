@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Russo+One&family=Tektur:wght@600&display=swap');
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color:rgba(184, 203, 36, 0.764);
+}
+.title{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.container{
+    width:60%;
+    margin: auto;
+}
+
+.heading{
+    font-size:20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: whitesmoke;
+-webkit-box-shadow: 2px 2px 22px 2px rgba(4, 4, 4, 1);
+    -moz-box-shadow: 2px 2px 22px 2px rgba(4, 4, 4, 1);
+    box-shadow: 2px 2px 22px 2px rgba(4, 4, 4, 1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.heading .header{
+    font-weight: 900;
+    color:blue;    
+    font-size:28px;
+    font-family: 'Tektur', cursive;
+}
+
+.context-text{
+    margin-bottom: 20px;
+    display: none;
+}
+.content{
+    border:2px solid black;
+    border-radius: 10px;
+    font-size:24px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(95, 238, 102, 0.749);
+    color:black;
+    font-family: 'Acme', sans-serif;
+}
+strong{
+    color:red;
+}
+.text li a{
+    color:green;
+    font-weight: bold;
+}
+.del{
+    cursor: pointer;
+}
+.active {
+    display: block;
+}
+.text{
+    padding-left:20px;
+}
+.text li{
+    padding:5px;
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    font-size:34px;
+    font-family: 'Russo One', sans-serif;
+    color:darkred;
+}
+.title hr{
+    border:2px solid red;
+    margin-top:10px;
+}
+footer{
+    text-align: center;
+    color:blue;
+    margin-top:20px;
+}
