@@ -18,6 +18,11 @@ body{
     width:60%;
     margin: auto;
 }
+@media (max-width:600px) {
+    .container{
+        width: auto;
+    }
+}
 
 .heading{
     font-size:20px;
